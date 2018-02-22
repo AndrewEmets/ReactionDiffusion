@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0205cb8957891b44b142689caa23987, type: 3}
+  m_Name: RecorderWindowSettings
+  m_EditorClassIdentifier: 
+  m_Settings: {fileID: 114736972911044556}
+--- !u!114 &114342520380708626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef190f44e596a94ebfec7c7b888a950, type: 3}
+  m_Name: befc6f0a-9a4b-4b49-b3ea-24abec1d7d3c
+  m_EditorClassIdentifier: 
+  m_DisplayName: Pixels
+  m_Id: fc919b7d-815d-4173-9f0d-22b59ea69962
+  m_OutputSize: 720
+  m_AspectRatio: 0
+  m_ForceEvenSize: 0
+  m_SourceRTxtr: {fileID: 0}
+--- !u!114 &114736972911044556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d33382d41b60b72438f8e9586f86504a, type: 3}
+  m_Name: Recorder Settings
+  m_EditorClassIdentifier: 
+  m_AssetID: e8c12d4b9ce5a4147bca3fe4956bb26f
+  m_CaptureEveryNthFrame: 1
+  m_FrameRateMode: 1
+  m_FrameRate: 30
+  m_FrameRateExact: 1
+  m_StartFrame: 0
+  m_EndFrame: 10
+  m_StartTime: 0
+  m_EndTime: 1
+  m_DurationMode: 0
+  m_SynchFrameRate: 1
+  m_BaseFileName:
+    m_Pattern: movie.<ext>
+  m_DestinationPath:
+    m_root: 1
+    m_leaf: /Screenshots
+  m_InputsSettings:
+    m_InputsSettingsAssets:
+    - {fileID: 114342520380708626}
+    ownerRecorderSettingsAssetId: e8c12d4b9ce5a4147bca3fe4956bb26f
+  m_RecorderTypeName: UTJ.FrameCapturer.Recorders.WEBMRecorder, Assembly-CSharp-firstpass,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_WebmEncoderSettings:
+    video:
+      v: 1
+    videoEncoder: 1
+    videoWidth: 0
+    videoHeight: 0
+    videoTargetFramerate: 60
+    videoBitrateMode: 1
+    videoTargetBitrate: 1024000
+    videoMaxTasks: 4
+    audio:
+      v: 1
+    audioEncoder: 0
+    audioSampleRate: 48000
+    audioNumChannels: 2
+    audioBitrateMode: 1
+    audioTargetBitrate: 128000
+    audioMaxTasks: 4
+  m_AutoSelectBR: 1
