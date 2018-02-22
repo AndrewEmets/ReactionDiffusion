@@ -207,7 +207,7 @@ MonoBehaviour:
   updateMaterial: {fileID: 2100000, guid: e64c2a6924cf76b4384a53baa8c512f5, type: 2}
   targetTexture: {fileID: 8400000, guid: 512e2615e2294d145a455949db58de9e, type: 2}
   initialTexture: {fileID: 2800000, guid: b5b42f643d30d594c8654af43eb44f21, type: 3}
-  updatesPerFrame: 13
+  updatesPerFrame: 15
   currentPrefs: 0
   prefs:
   - feed: 0.055
@@ -215,7 +215,7 @@ MonoBehaviour:
     da: 1
     db: 0.5
   - feed: 0.055
-    kill: 0.059
+    kill: 0.057
     da: 1
     db: 0.5
   - feed: 0.055
@@ -1267,7 +1267,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2031171645}
   m_LocalRotation: {x: 0.55985457, y: -0.30123553, z: 0.22876269, w: 0.73721623}
-  m_LocalPosition: {x: 0.849, y: 1.517, z: -1.46}
+  m_LocalPosition: {x: 0.842, y: 1.125, z: -1.299}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
